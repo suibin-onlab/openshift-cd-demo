@@ -370,7 +370,6 @@ objects:
       app: gogs
     name: gogs
   spec:
-    host: gogs.paas.cumulaas.com
     ports:
     - name: web
       port: 3000
@@ -408,6 +407,7 @@ objects:
     labels:
       app: gogs
   spec:
+    host: gogs.paas.cumulaas.com
     to:
       kind: Service
       name: gogs
