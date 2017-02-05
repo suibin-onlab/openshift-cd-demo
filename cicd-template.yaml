@@ -119,6 +119,7 @@ objects:
   metadata:
     name: jenkins
   spec:
+    host: jenkins.paas.cumulaas.com
     to:
       kind: Service
       name: jenkins
@@ -267,6 +268,7 @@ objects:
       app: nexus
     name: nexus
   spec:
+    host: nexus.paas.cumulaas.com
     port:
       targetPort: web
     to:
@@ -368,6 +370,7 @@ objects:
       app: gogs
     name: gogs
   spec:
+    host: gogs.paas.cumulaas.com
     ports:
     - name: web
       port: 3000
@@ -779,6 +782,7 @@ objects:
     labels:
       app: sonarqube
   spec:
+    host: sonarqube.paas.cumulaas.com
     to:
       kind: Service
       name: sonarqube
