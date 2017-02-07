@@ -699,7 +699,7 @@ objects:
       {
         "clone_addr": "https://github.com/suibinz/openshift-tasks.git",
         "uid": 1,
-        "repo_name": "openshift-tasks"
+        "repo_name": "openshift-tasks-sz"
       }
       EOF
 
